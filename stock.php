@@ -43,7 +43,7 @@
 						
 				<div class="row">
 					<div class='col-md-4'>
-						<label>Filtrar por serial o nombffre</label>
+						<label>Filtrar por serial o nombre</label>
 						<input type="text" class="form-control" id="q" placeholder="Serial o nombre del producto" onkeyup='load(1);'>
 					</div>
 					

@@ -2,8 +2,6 @@
 		if (isset($con))
 		{
 	?>
-
-	
 	<!-- Modal -->
 	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
@@ -16,13 +14,13 @@
 			<form class="form-horizontal" method="post" id="editar_producto" name="editar_producto" enctype="multipart/form-data">
 			<div id="resultados_ajax2"></div>
 
-			<div class="form-group">
+
+			   <div class="form-group">
 				<label for="mod_numero" class="col-sm-3 control-label">N° Bien</label>
 				<div class="col-sm-8">
 				  <input class="form-control" id="mod_numero" name="mod_numero" required></input>
 				</div>
 			  </div>
-
 
 			  <div class="form-group">
 				<label for="mod_nombre" class="col-sm-3 control-label">Especificaciones Técnicas</label>
@@ -45,16 +43,13 @@
 				</div>
 			  </div>
 
-
-
 			   <div class="form-group">
 				<label for="mod_modelo" class="col-sm-3 control-label">Modelo</label>
 				<div class="col-sm-8">
 				  <input class="form-control" id="mod_modelo" name="mod_modelo" required></input>
 				</div>
 			  </div>
-
-
+			  
 			  <div class="form-group">
 				<label for="mod_color" class="col-sm-3 control-label">Color</label>
 				<div class="col-sm-8">
@@ -126,7 +121,6 @@
 				</div>
 			  </div>
 
-
 			  <div class="form-group">
 				<label for="mod_condicion" class="col-sm-3 control-label">Condición</label>
 				<div class="col-sm-8">
@@ -143,6 +137,7 @@
 					</select>			  
 				</div>
 			  </div>
+
 
 			<!-- Imagen del producto -->
 			<div class="form-group">
@@ -171,8 +166,6 @@
 		</div>
 	  </div>
 	</div>
-	<script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/style.js"></script>
 	<?php
 		}
 	?>
